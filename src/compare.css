@@ -1,0 +1,17 @@
+#box{
+    height: auto;
+}
+.loading{
+    margin: 20px auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: red;
+    background-color: aquamarine;
+}
+
+@media  screen and (max-width:600px) {
+    .loading{
+        display: none;
+    }
+}
