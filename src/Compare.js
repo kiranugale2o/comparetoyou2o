@@ -26,11 +26,12 @@ const storage = getStorage();
 export default function Compare(){
       const[bimgcheck,setbimg]=useState(false)
       const[gimgcheck,setgimg]=useState(false)
-      const [imgd,setImg]=useState("defualtp.jpg");
+      const [imgd,setImg]=useState();
       const [gimgd,setGimg]=useState("girl.png");
       const [boycheckimg,setBoycheckImg]=useState("question.jpg ");
       const [girlcheckimg,setGirlcheckImg]=useState("question.jpg ");
     
+      
       
     
       const imageProvider=(e)=>{
